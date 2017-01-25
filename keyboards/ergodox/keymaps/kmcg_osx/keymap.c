@@ -29,7 +29,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |Moment| L2   |       | PgUp | Momemt |      |
  *                                 | Space|to    |------|       |------| to     |Enter |
+<<<<<<< HEAD
  *                                 |      |3     | OshL2|       |  '   | 1      |      |
+=======
+ *                                 |      |3     | OshL2|       |  "   | 1      |      |
+>>>>>>> Add my custom keymap
  *                                 `--------------------'       `----------------------'
  */
 // If it accepts an argument (i.e, is a function), it doesn't need KC_.
@@ -52,14 +56,22 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                   KC_LEFT,KC_DOWN,  KC_UP,KC_RGHT,      KC_FN1,
              KC_LCBR,        KC_RCBR,
              KC_PGUP,
+<<<<<<< HEAD
              KC_QUOT,MO(SYMB), KC_ENT
+=======
+             S(KC_QUOT),MO(SYMB), KC_ENT
+>>>>>>> Add my custom keymap
     ),
 /* Keymap 1: Symbol Layer
  *
  * ,--------------------------------------------------.           ,--------------------------------------------------.
  * |        |  F1  |  F2  |  F3  |  F4  |  F5  |      |           |      |  F6  |  F7  |  F8  |  F9  |  F10 |   F11  |
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
+<<<<<<< HEAD
  * |        |   !  |   @  |   {  |   }  |   |  |      |           |      |   Up |   7  |   8  |   9  |   *  |   '    |
+=======
+ * |        |   !  |   @  |   {  |   }  |   |  |      |           |      |   Up |   7  |   8  |   9  |   *  |   F12  |
+>>>>>>> Add my custom keymap
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * |        |   #  |   $  |   (  |   )  |   `  |------|           |------|   [  |   ]  |   5  |   6  |   +  |   "    |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
@@ -88,7 +100,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                KC_TRNS,KC_TRNS,KC_TRNS,
        // right hand
        KC_TRNS, KC_F6,   KC_F7,  KC_F8,   KC_F9,   KC_F10,  KC_F11,
+<<<<<<< HEAD
        KC_TRNS, KC_UP,   KC_7,   KC_8,    KC_9,    KC_ASTR, KC_QUOT,
+=======
+       KC_TRNS, KC_UP,   KC_7,   KC_8,    KC_9,    KC_ASTR, KC_F12,
+>>>>>>> Add my custom keymap
                 KC_LBRC, KC_RBRC,KC_5,    KC_6,    KC_PLUS, S(KC_QUOT),
        KC_TRNS, KC_LCBR, KC_RCBR,KC_2,    KC_3,    KC_BSLS, KC_TRNS,
                          KC_TRNS,KC_DOT,  KC_0,    KC_EQL,  KC_TRNS,
@@ -103,17 +119,28 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
  * |        |      |      |      |      |      |      |           |      |      |      |      |      |      |        |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
+<<<<<<< HEAD
  * |        |      |      |      |      |      |------|           |------|      |      |      |      |      |        |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * |        |      |      |      |      |      |      |           |      |   '  |      | Prev | Next |      |        |
+=======
+ * |        |      |      |      |      |      |------|           |------|      |      |      |      |      |  Play  |
+ * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
+ * |        |      |      |      |      |      |      |           |      |      |      | Prev | Next |      |        |
+>>>>>>> Add my custom keymap
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
  *   |      |      |      | Lclk | Rclk |                                       |VolDn |VolUp | Mute |      |      |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,-------------.
  *                                        |      |      |       |      |      |
  *                                 ,------|------|------|       |------+------+------.
+<<<<<<< HEAD
  *                                 |      |      |      |       |      |      |      |
  *                                 |      |      |------|       |------|      |      |
+=======
+ *                                 |      |      |      |       |      |      |Brwser|
+ *                                 |      |      |------|       |------|      |Back  |
+>>>>>>> Add my custom keymap
  *                                 |      |      |      |       |      |      |      |
  *                                 `--------------------'       `--------------------'
  */
@@ -130,12 +157,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // right hand
        KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+<<<<<<< HEAD
                  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+=======
+                 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_MPLY,
+>>>>>>> Add my custom keymap
        KC_TRNS,  KC_TRNS, KC_TRNS, KC_MPRV, KC_MNXT, KC_TRNS, KC_TRNS,
                           KC_VOLD, KC_VOLU, KC_MUTE, KC_TRNS, KC_TRNS,
        KC_TRNS, KC_TRNS,
        KC_TRNS,
+<<<<<<< HEAD
        KC_TRNS, KC_TRNS, KC_TRNS
+=======
+       KC_TRNS, KC_TRNS, KC_WBAK
+>>>>>>> Add my custom keymap
 ),
 /* Keymap 3: Special shortcuts
  *
@@ -144,9 +179,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
  * |        |      |  Up  |      |      |      |      |           |      |      |      |      |      |      |        |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
+<<<<<<< HEAD
  * |        | Left | Down | Right|      |  '   |------|           |------|  left|  up  | down | rght |      |   "    |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * |        |      |      |      |^Cmd/ |  "   |      |           |      |   [  |   ]  |      |      |      |        |
+=======
+ * |        | Left | Down | Right|      |      |------|           |------|      |      |      |      |      |   "    |
+ * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
+ * |        |      |      |      |^Cmd/ |      |      |           |      |   [  |   ]  |      |      |      |        |
+>>>>>>> Add my custom keymap
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
  *   |      |      |      |      |      |                                       |      |      |      |      |      |
  *   `----------------------------------'                                       `----------------------------------'
@@ -162,8 +203,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [SHCT] = KEYMAP(
        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS, KC_TRNS, KC_UP,   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+<<<<<<< HEAD
        KC_TRNS, KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS, KC_QUOT,
        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, LCTL(LGUI(KC_SLSH)), S(KC_QUOT), KC_TRNS,
+=======
+       KC_TRNS, KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS, KC_TRNS,
+       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, LCTL(LGUI(KC_SLSH)), KC_TRNS, KC_TRNS,
+>>>>>>> Add my custom keymap
        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
                                            KC_TRNS, KC_TRNS,
                                                     KC_TRNS,
@@ -171,7 +217,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // right hand
        KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+<<<<<<< HEAD
                  KC_LEFT, KC_UP,   KC_DOWN, KC_RGHT, KC_TRNS, S(KC_QUOT),
+=======
+                 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, S(KC_QUOT),
+>>>>>>> Add my custom keymap
        KC_TRNS,  KC_LBRC, KC_RBRC, KC_MPRV, KC_MNXT, KC_TRNS, KC_TRNS,
                           KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS, KC_TRNS,
