@@ -1,3 +1,5 @@
+API_SYSEX_ENABLE = no
+
 ifndef VERBOSE
 .SILENT:
 endif
